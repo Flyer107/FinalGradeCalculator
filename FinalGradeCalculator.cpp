@@ -17,7 +17,7 @@ int main()
 
 	double result = 0.0;
 
-	//get lengths of two sides
+	//get the required information for calculation
 	cout << "Current grade: ";
 	cin >> currGrade;
 	cout << "What percent is the final worth? ";
@@ -25,10 +25,10 @@ int main()
 	cout << "What grade (at least) do you want in the class? ";
 	cin >> gradeObjective;
 
-	//call function to calculate hypotenuse
+	//call function to calculate the necessary grade
 	result = finalNeeded(currGrade, finWorth, gradeObjective);
 
-	//display the length of the hypotenuse
+	//display the result
 	cout << "The grade you need on your final to at least get a(n) " << gradeObjective << " is: "
 		<< result << endl;
 
